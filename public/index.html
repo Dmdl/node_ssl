@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTSP</title>
+</head>
+
+<body>
+    <h2>window postmessage test</h2>
+
+    <button id="post-button">post message</button>
+
+    <script type="text/javascript">
+        document.getElementById("post-button").addEventListener("click", () => {
+            window.postMessage({
+                message: 'success'
+            }, '*');
+        });
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("message", receiveMessage, false);
+
+        function receiveMessage(event) {
+            console.log(event.data);
+        }
+    </script>
+</body>
+
+</html>
