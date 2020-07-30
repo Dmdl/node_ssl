@@ -15,18 +15,18 @@
     <script type="text/javascript">
         document.getElementById("post-button").addEventListener("click", () => {
             window.postMessage({
-                message: 'success'
+                message: 'post message'
             }, '*');
         });
     </script>
 
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         window.addEventListener("message", receiveMessage, false);
 
         function receiveMessage(event) {
             console.log(event.data);
         }
-    </script> -->
+    </script>
 </body>
 
 </html>
