@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.example.customtabintegration",
+    "package_name": "me.lakmal.itsp",
     "sha256_cert_fingerprints":
-    ["E3:38:BB:58:E1:0F:90:63:E1:C3:C8:D5:03:48:37:BF:15:4A:E3:5F:C7:87:EF:77:3B:AE:14:9E:17:F3:15:79"]
+    ["DF:E7:66:4F:29:8E:35:E4:9D:6D:12:2E:80:E0:73:AB:F2:E6:45:21:CC:90:75:22:0A:01:D0:3F:DA:1C:DF:2E"]
   }
 }]
